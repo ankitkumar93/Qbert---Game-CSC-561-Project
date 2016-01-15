@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{d954e8c4-8187-497c-a406-a795715e0df2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\creature">
+      <UniqueIdentifier>{586647ba-0c7c-4e17-b6aa-61e7ee711b45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\scene">
+      <UniqueIdentifier>{ca14b8e8-97dc-4b2c-919c-c98f305e8258}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inc\tiny_obj_loader\tiny_obj_loader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="scene\scene_transforms.txt">
+      <Filter>Resource Files\scene</Filter>
+    </Text>
+    <Text Include="creatures\creature.txt">
+      <Filter>Resource Files\creature</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\fs_lighting.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\fs_lives.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\fs_text.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\fs_texture.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\vs_lighting.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\vs_lives.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\vs_text.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\vs_texture.glsl">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
